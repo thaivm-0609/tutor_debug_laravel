@@ -26,7 +26,7 @@ Route::get('/performances', function () { //check request chạy chậm
 
     return response()->json([
         'tests' => $tests
-    ])
+    ]);
 });
 
 Route::get('/debug/tests/{id}', function ($id) { //lỗi 500 hoặc 404
